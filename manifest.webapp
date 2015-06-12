@@ -1,7 +1,7 @@
 {
   "name": "Tab Switcher Shortcut",
   "description": "Adds a button to the browser that immediately opens the tab switcher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "developer": {
     "name": "Dan Callahan"
   },
@@ -12,6 +12,6 @@
   },
   "customizations": [{
     "filter": "system.gaiamobile.org",
-    "scripts": ["index.js"]
+    "scripts": ["tabswitcher-addon.js"]
   }]
 }

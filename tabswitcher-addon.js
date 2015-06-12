@@ -10,6 +10,15 @@
         width: calc(100% - 9rem);
       }
 
+      .controls .forward-button:not([disabled]) + .urlbar,
+      .controls .back-button:not([disabled]) + .forward-button[disabled] + .urlbar {
+        width: calc(100% - 12.5rem);
+      }
+
+      .controls .back-button:not([disabled]) + .forward-button:not([disabled]) + .urlbar {
+        width: calc(100% - 16.5rem);
+      }
+
       .browser .chrome .controls .windows-button {
         display: initial;
         offset-inline-end: 6.5em;
