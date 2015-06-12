@@ -1,6 +1,7 @@
 {
   "name": "Tab Switcher Shortcut",
   "description": "Adds a button to the browser that immediately opens the tab switcher",
+  "version": "0.0.1",
   "developer": {
     "name": "Dan Callahan"
   },
