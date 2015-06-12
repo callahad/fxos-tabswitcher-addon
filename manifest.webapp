@@ -6,6 +6,9 @@
   },
   "role": "addon",
   "type": "certified",
+  "icons": {
+    "128x128": "/icon-128x128.png"
+  },
   "customizations": [{
     "filter": "system.gaiamobile.org",
     "scripts": ["index.js"]
