@@ -14,6 +14,10 @@
         display: initial;
         offset-inline-end: 6.5em;
       }
+
+      .browser button[data-id=show-windows] {
+        display: none;
+      }
     `);
 
     var styleTag = document.createElement('style');
