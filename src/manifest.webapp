@@ -1,7 +1,7 @@
 {
   "name": "Tab Switcher Shortcut",
   "description": "Adds a button to the browser that immediately opens the tab switcher",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "developer": {
     "name": "Dan Callahan"
   },
@@ -10,6 +10,7 @@
   "icons": {
     "128x128": "/icon-128x128.png"
   },
+  "package_path": "https://callahad.github.io/fxos-tabswitcher-addon/dist/fxos-tabswitcher-addon.zip",
   "customizations": [{
     "filter": "system.gaiamobile.org",
     "scripts": ["tabswitcher-addon.js"]
