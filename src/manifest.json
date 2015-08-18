@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Switcher Shortcut",
+  "description": "Adds a button to the browser that immediately opens the tab switcher",
+  "version": "0.0.5",
+  "author": "Dan Callahan",
+  "icons": {
+    "128x128": "/icon-128x128.png"
+  },
+  "content_scripts": [{
+    "matches": ["app://system.gaiamobile.org/*"],
+    "css": ["tabswitcher-addon.css"]
+  }]
+}

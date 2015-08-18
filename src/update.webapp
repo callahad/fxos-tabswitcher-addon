@@ -1,0 +1,6 @@
+{
+  "name": "Tab Switcher Shortcut",
+  "description": "Adds a button to the browser that immediately opens the tab switcher",
+  "developer": { "name": "Dan Callahan" },
+  "package_path": "https://callahad.github.io/fxos-tabswitcher-addon/dist/fxos-tabswitcher-extension.zip"
+}
