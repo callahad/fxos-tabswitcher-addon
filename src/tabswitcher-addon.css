@@ -1,4 +1,11 @@
-.chrome.maximized .controls .urlbar {
+/* Hide the redundant "Show Windows" item in the browser menu */
+.browser button[data-id=show-windows] {
+  display: none;
+}
+
+/* Make space for the "Show Windows" button by adding 4.5rem to each width. */
+.appWindow:not(.search-app) /* <-- Avoid changing the new tab page. */
+.chrome .controls .urlbar {
   width: calc(100% - 9rem);
 }
 
@@ -11,11 +18,8 @@
   width: calc(100% - 16.5rem);
 }
 
+/* Display the hidden "Show Windows" button in the toolbar */
 .browser .chrome.maximized .controls .windows-button {
   display: initial;
-  offset-inline-end: 6.5em;
-}
-
-.browser button[data-id=show-windows] {
-  display: none;
+  offset-inline-end: 4rem;
 }
