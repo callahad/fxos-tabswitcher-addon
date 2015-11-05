@@ -2,8 +2,16 @@
 <html>
   <head>
     <title>Firefox OS Tabswitcher Addon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    More information on GitHub at <a href="https://github.com/callahad/fxos-tabswitcher-addon">callahad/fxos-tabswitcher-addon</a>.
+    <p>More information on GitHub at <a href="https://github.com/callahad/fxos-tabswitcher-addon">callahad/fxos-tabswitcher-addon</a>.</p> 
+    <p>Try clicking this button to install the add-on: <button id="install">Install Add-on</button></p>
+    <script>
+      var btn = document.getElementById('install');
+      btn.addEventListener('click', function(e) {
+        navigator.mozApps.installPackage('https://callahad.github.io/fxos-tabswitcher-addon/src/update.webapp');
+      });
+    </script>
   </body>
 </html>
